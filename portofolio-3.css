@@ -1,0 +1,213 @@
+.navbar {
+    background-color: #0a2318;
+    font-family: "Staatliches", cursive;
+    justify-content: center;
+}
+
+.navbar-brand {
+    color: #c4ddc3;
+}
+
+.nav-link {
+    color: #c4ddc3;
+}
+
+.nav-item {
+    margin: 0 0.5rem;
+}
+
+#jumbotron {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    min-height: 100vh;
+    /* width: 100vw; */
+    color: #c4ddc3;
+    font-family: "Poppins", sans-serif;
+    background-color: #100c08;
+}
+
+#jumbotron .container {
+    margin: auto auto;
+}
+
+@media (max-width: 768px) {
+    #jumbotron .container {
+        margin: 0 1.5rem;
+    }
+    #jumbotron .container p {
+        font-size: 16px;
+    }
+}
+
+#about {
+    min-height: 100vh;
+    /* width: 100vw; */
+    background-color: #100c08;
+    font-family: "Poppins", sans-serif;
+}
+
+#about .container {
+    color: #c4ddc3;
+    top: 100%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+#about h2 {
+    font-family: "Staatliches", cursive;
+    margin-top: 10rem;
+}
+
+.about-content-profile img {
+    margin-bottom: 0.5rem;
+}
+
+.about-content-profile h3 {
+    margin: 0;
+}
+
+.about-content-textbox p {
+    margin: 0;
+}
+
+.about-dropdown p {
+    margin: 0;
+}
+
+.about-dropdown button {
+    background-color: #100c08;
+    color: #c4ddc3;
+    border-color: #c4ddc3;
+    border-radius: 0.25rem;
+}
+
+.about-dropdown button:hover {
+    background-color: #c4ddc3;
+    color: #100c08;
+    border: none;
+}
+
+.about-dropdown button:hover:active {
+    background-color: #648b75;
+    color: #100c08;
+    border: none;
+}
+
+.about-dropdown-textbox {
+    background-color: #100c08;
+    padding: 1rem 0 0 0;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .about-content .col-md-1 p {
+        display: none;
+    }
+    .about-content .col-md-4 {
+        padding-top: 1rem;
+        align-items: center;
+        font-weight: 300;
+        font-size: 16px;
+    }
+}
+
+#projects {
+    background-color: #100c08;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    /* width: 100vw; */
+}
+
+#projects .parallax {
+    background-image: linear-gradient(#100c08cc , #100c0899, #100c08cc), url(Img/screen-code-work-office.jpg);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#projects .container-fluid {
+    padding: 0;
+    color: #c4ddc3;
+    margin: 0;
+}
+
+#projects .projects-title {
+    background-image: linear-gradient(#04392700, #043927ff 80%);
+    padding: 10rem 0 2rem 0;
+    /* max-width: 100%; */
+    margin: 0;
+}
+
+#projects .projects-slide {
+    margin: 5rem 0;
+    max-width: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 10%;
+}
+
+.carousel-caption {
+    right: 10%;
+    left: 10%;
+    bottom: 39px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(10, 35, 24, 0.8);
+}
+
+@media (max-width: 1200px) {
+    #projects .d-none {
+        display: none !important;
+    }
+}
+
+#projects h2 {
+    font-family: "Staatliches", cursive;
+    margin: 0;
+}
+
+#projects h5 {
+    margin-bottom: 0;
+    font-size: 24px;
+    -webkit-text-fill-color: #c4ddc3;
+}
+
+#projects p {
+    margin-bottom: 0;
+    font-size: 18px;
+    -webkit-text-fill-color: #c4ddc3;
+}
+
+#contacts {
+    background-color: #043927;
+    /* width: 100vw; */
+}
+
+#contacts .container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #c4ddc3;
+}
+
+#contacts h2 {
+    font-family: "Staatliches", cursive;
+    margin-bottom: 2rem;
+}
+
+#contacts a {
+    font-weight: 700;
+    color: #c4ddc3;
+}
+
+footer {
+    background-color: rgba(4, 57, 39);
+    padding-bottom: 0.2rem;
+    /* width: 100vw; */
+}
