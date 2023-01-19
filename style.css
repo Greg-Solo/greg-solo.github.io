@@ -185,6 +185,11 @@
     -webkit-text-fill-color: #c4ddc3;
 }
 
+#projects a {
+    -webkit-text-fill-color: #c4ddc3;
+    font-weight:600;
+}
+
 #contacts {
     background-color: #043927;
     /* width: 100vw; */
