@@ -1,0 +1,210 @@
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11rem 7.5rem 11rem 7.5rem;
+    margin: 0 0 20vh 0;
+    box-sizing: border-box;
+    height: 100vh;
+
+    font-family: "Courier New", Courier, monospace;
+
+    // .container {
+    //     margin: 3rem 0;
+    // }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .col {
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    .hero-left {
+        max-width: 40%;
+
+        .hero-header {
+            text-align: left;
+            color: #ffcc00;
+            font-weight: bold;
+            font-size: 1.5rem;
+
+            h1 {
+                margin: 0;
+            }
+
+            .job-wrapper p {
+                font-size: 1.5rem;
+                font-weight: 500;
+                margin: 0;
+                position: relative;
+            }
+        }
+
+        .button-container {
+            padding: 4rem 2.5rem 4rem 2.5rem;
+            text-align: left;
+        }
+
+        .find-me {
+            margin-top: auto;
+            font-size: 1.5rem;
+            text-align: left;
+
+            h4 {
+                // -webkit-text-stroke: 0.0625rem #ffcc00;
+
+                margin: 0;
+            }
+
+            .find-me-content {
+                color: #ffcc00;
+                padding: 1rem 10rem 0 2rem;
+                justify-content: space-between;
+            }
+
+            @media (max-width: 768px) {
+                // margin-top: 7rem;
+                padding: 2rem 1rem 3rem 1rem;
+                text-align: center;
+
+                h4 {
+                    -webkit-text-stroke: 0.0625rem #ffcc00;
+                    font-weight: 300;
+                    font-size: 1.25rem;
+                }
+
+                .find-me-content {
+                    flex-direction: row;
+                    padding: 1rem 3rem;
+                }
+            }
+        }
+    }
+
+    .hero-right {
+        max-width: 25%;
+
+        .hero-img {
+            padding: 0 0 5rem 0;
+
+            img {
+                margin: 0;
+                width: 200px;
+            }
+        }
+
+        .hero-desc {
+            text-align: center;
+            font-weight: 500;
+            font-size: 1.5rem;
+
+            p {
+                margin: 0;
+                // -webkit-text-stroke: 0.0625rem #ffcc00;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        padding: 15rem 2rem 15rem 2rem;
+
+        .hero-left {
+            max-width: 100%;
+
+            .hero-header {
+                padding: 3rem 1rem 2rem 1rem;
+                text-align: center;
+                font-size: 1rem;
+
+                .job-wrapper p {
+                    font-size: 1.25rem;
+                    -webkit-text-stroke: 0.0625rem;
+                }
+            }
+
+            .button-container {
+                padding: 2rem 1rem;
+                text-align: center;
+            }
+        }
+        .hero-right {
+            display: none !important;
+        }
+    }
+}
+
+/* BUTTONS */
+
+/* Button 85 */
+.button-85 {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 204, 0);
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 700;
+    font-size: 1.25rem;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
+}
+
+.button-85:before {
+    content: "";
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.button-85:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #282828;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}

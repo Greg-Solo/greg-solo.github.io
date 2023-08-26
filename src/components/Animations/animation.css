@@ -1,0 +1,35 @@
+@keyframes typeIn {
+    from {
+        opacity: 1;
+        background-color: #ffcc00;
+        color: #282828;
+    }
+    to {
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0);
+        color: #ffcc00;
+    }
+}
+
+.before-typeIn {
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffcc00;
+}
+
+.after-typeIn {
+    animation-name: typeIn;
+    animation-duration: 50ms;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+    opacity: 0;
+}
+
+.hidden-text {
+    display: none;
+}
+
+.visible-text {
+    display: block;
+}
