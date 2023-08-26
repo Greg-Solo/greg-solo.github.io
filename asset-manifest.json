@@ -1,20 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7cad0a86.css",
-    "main.js": "/static/js/main.9a1747fa.js",
-    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
-    "static/media/IMG-20220726-WA0010-16-9.jpg": "/static/media/IMG-20220726-WA0010-16-9.6b2005f166f13fc27c0c.jpg",
-    "static/media/IMG-20221124-WA0012-16-9.jpg": "/static/media/IMG-20221124-WA0012-16-9.a820e5c27295ac8f77ea.jpg",
-    "static/media/kkctbn-16-9.jpg": "/static/media/kkctbn-16-9.58cf41c92793d91a07a1.jpg",
-    "static/media/yearbook-2-square.jpg": "/static/media/yearbook-2-square.4094a7735c8dcc073a35.jpg",
-    "static/media/screen-code-work-office.jpg": "/static/media/screen-code-work-office.e152b984ae44e2beae37.jpg",
+    "main.css": "/static/css/main.a1d7ad0f.css",
+    "main.js": "/static/js/main.54c41c9f.js",
+    "static/media/better-gas-logo-negative-backround.png": "/static/media/better-gas-logo-negative-backround.59369ec1990a5144df6c.png",
+    "static/media/better-gas-logo-negative.png": "/static/media/better-gas-logo-negative.bb8f70a876986a0371ed.png",
     "index.html": "/index.html",
-    "main.7cad0a86.css.map": "/static/css/main.7cad0a86.css.map",
-    "main.9a1747fa.js.map": "/static/js/main.9a1747fa.js.map",
-    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+    "main.a1d7ad0f.css.map": "/static/css/main.a1d7ad0f.css.map",
+    "main.54c41c9f.js.map": "/static/js/main.54c41c9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cad0a86.css",
-    "static/js/main.9a1747fa.js"
+    "static/css/main.a1d7ad0f.css",
+    "static/js/main.54c41c9f.js"
   ]
 }
