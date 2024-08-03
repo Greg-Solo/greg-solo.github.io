@@ -20,7 +20,7 @@ const Hero = () => {
                     <div className="hero-header">
                         <TypeIn tag="h1" text="Gregory Azarya Solo" />
                         <div className="job-wrapper">
-                            <AlternatingText tag="p" texts={["A developer.", "A designer.", "A robotics engineer.", "A freelancer."]} />
+                            <AlternatingText tag="p" texts={["An AI specialist.", "A developer", "A robotics engineer.", "An entrepreneur."]} />
                         </div>
                     </div>
                     <div className="button-container">
@@ -63,7 +63,7 @@ const Hero = () => {
                                 <>
                                     A visionary engineering student majoring in Robotics and Artificial Intelligence Engineering.
                                     <br /> <br />
-                                    Open for IT related projects, such as website development, computer networks, Internet of Things, robotics, etc.
+                                    Open for IT projects, such as AI development, website development, computer networks, Internet of Things, etc.
                                 </>
                             }
                         />

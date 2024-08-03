@@ -20,13 +20,13 @@ const Hero = () => {
                             tag="h2"
                             text={
                                 <>
-                                    Lead Programmer of Quatron-X Team
+                                    Lead Programmer of Quatron-X Team (4th Place)
                                     <br />
-                                    AkasasuraKRTI
+                                    Akasasura, KRTI 2023
                                 </>
                             }
                         />
-                        <TypeIn tag="p" text="Part of Quatron-X team that participated in KRTI Contest, VTOL Division. Developed an autonomous drone for various missions." />
+                        <TypeIn tag="p" text="Part of Quatron-X team, 4th place in KRTI Contest, VTOL Division. Developed an autonomous drone for various missions." />
                         <TypeIn
                             tag="h2"
                             text={
@@ -37,9 +37,20 @@ const Hero = () => {
                                 </>
                             }
                         />
-                        <TypeIn tag="p" text="Coordinated a team that handled mediums of publication such as websites, podcasts, Instagram reels, etc." />
+                        <TypeIn tag="p" text="Led a team that optimized broadcasts and publications through websites, podcasts, SEO, etc." />
                     </div>
                     <div className="col more-content-right">
+                    <TypeIn
+                            tag="h2"
+                            text={
+                                <>
+                                    AI Engineer Intern
+                                    <br />
+                                    DSID Universitas Airlangga
+                                </>
+                            }
+                        />
+                        <TypeIn tag="p" text="Developed a prediction AI model with over 95% accuracy using Tensorflow, alongside data pipelines and customized tools." />
                         <TypeIn
                             tag="h2"
                             text={

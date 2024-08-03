@@ -30,14 +30,14 @@ const AlternatingText = (props) => {
         entry[onDisplay].classList.add("visible-text");
         console.log(`SWITCH ${onDisplay}`);
         console.log(`${entry[onDisplay - 1]}`);
-    }, [onDisplay]);
+    }, [onDisplay, prevDisplay]);
 
     return (
         <div ref={ref}>
-            <TypeIn tag="p" text="A developer." id="job-0" className="hidden-text" />
-            <TypeIn tag="p" text="A designer." id="job-1" className="hidden-text" />
-            <TypeIn tag="p" text="A robotics engineer." id="job-2" className="hidden-text" />
-            <TypeIn tag="p" text="A freelancer." id="job-3" className="hidden-text" />
+            <TypeIn tag="p" text={props.texts[0]} id="job-0" className="hidden-text" />
+            <TypeIn tag="p" text={props.texts[1]} id="job-1" className="hidden-text" />
+            <TypeIn tag="p" text={props.texts[2]} id="job-2" className="hidden-text" />
+            <TypeIn tag="p" text={props.texts[3]} id="job-3" className="hidden-text" />
         </div>
     );
 };
