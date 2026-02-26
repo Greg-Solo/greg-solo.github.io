@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import "./style.scss";
 
 import imgA1 from "../../assets/Img/DSA-1.png";
@@ -72,6 +72,26 @@ function Projects() {
   const [active, setActive] = useState(0);
   const [hovered, setHovered] = useState<number | null>(null);
 
+  // track when description enters viewport for animation
+  const descRef = useRef(null);
+  const [descVisible, setDescVisible] = useState(false);
+
+  useEffect(() => {
+    if (!descRef.current) return;
+    const obs = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
+        // entries.forEach((entry) => {
+        setDescVisible(entry.isIntersecting);
+        // });
+        console.log('entry ', entry);
+      },
+      { threshold: 0.1 }
+    );
+    obs.observe(descRef.current);
+    return () => obs.disconnect();
+  }, []);
+
   const current = projects[active];
 
   return (
@@ -98,7 +118,11 @@ function Projects() {
           </div>
         </div>
 
-        <div className="projects__desc" aria-live="polite">
+        <div
+          ref={descRef}
+          className={`projects__desc${descVisible ? " is-visible" : ""}`}
+          aria-live="polite"
+        >
           <h3 className="projects__desc-title">{current.name}</h3>
           <p className="projects__desc-summary">{current.summary}</p>
           <p
