@@ -52,7 +52,7 @@ function Projects() {
       hover: [
         "This is the banner of our team, along with the cup we won for placing 4th.",
         "This is our group photo and our drone, right after regional selection.",
-        "I was responsible in making sure the software of the drone works as intended. We had to carefully integrate all the hardware to our self-flying algorithm, a challenge that required extensive testing and debugging.",
+        "I was responsible in making sure the software of the drone works as intended. We had to carefully integrate all the hardware to our self-flying algorithm, requiring extensive testing and debugging.",
         "Gamma — image 4 detailed description.",
       ],
     },

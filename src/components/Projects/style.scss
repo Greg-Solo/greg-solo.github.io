@@ -188,9 +188,15 @@
   }
   .projects__buttons {
     width: 100%;
-    padding: 0 0 5rem 0;
   }
   .projects__gallery {
+    padding: 2rem 0;
     grid-template-columns: 1fr 1fr;
+  }
+  .projects__desc-summary {
+    font-size: 0.8rem;
+  }
+  .projects__desc-hover {
+    font-size: 0.8rem;
   }
 }
