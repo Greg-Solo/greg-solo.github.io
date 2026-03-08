@@ -31,7 +31,7 @@ function Projects() {
         "The official launching of the product. Ever since the model is continuously fine-tuned and updated with new data to maintain its performance and relevance.",
         "This is the raw correlation matrix of the dataset, which is used to analyze the relationships between different labels and identify insights.",
         "The process of training the model that can be disclosed, but the results are promising after using regularization techniques and hyperparameter tuning to optimize the model's performance.",
-        "Heavy imbalance in the dataset, with one label having significantly more samples due to the institution's focus on that particular SDG, which is a common challenge in multi-label classification tasks and requires careful handling to ensure the model's performance across all labels.",
+        "Heavy imbalance in the dataset, one label with more samples due to the institution's focus on that particular SDG, whichrequires careful handling to ensure the model's performance across all labels.",
       ],
     },
     {
@@ -48,7 +48,7 @@ function Projects() {
     {
       images: [imgC1, imgC2, imgC3],
       name: "KRTI",
-      summary: "I contributed as the lead programmer of the the team. We won 4th Place in Indonesian Flying Robotics Contest (KRTI) in 2023, Vertical Take-Off and Landing (VTOL) Division, for KOMBO Universitas Airlangga.",
+      summary: "Contributed as the lead programmer of the the team. We won 4th Place in Indonesian Flying Robotics Contest (KRTI) in 2023, Vertical Take-Off and Landing (VTOL) Division, for KOMBO Universitas Airlangga.",
       hover: [
         "This is the banner of our team, along with the cup we won for placing 4th.",
         "This is our group photo and our drone, right after regional selection.",
